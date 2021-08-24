@@ -12,7 +12,9 @@ namespace CurrencyConversionApplication
         Double result;
         static ApiHelper()
         {
+        
             httpClient = new HttpClient();
+            
         }
        public ApiHelper(IApiDetails apidetails)
         {
